@@ -1,0 +1,195 @@
+body{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border: 1px solid blue;
+    
+}
+
+#cabezera{
+    
+    background-color: #e45d55;
+}
+
+
+
+#menu>ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:end;
+    
+    list-style-type: none;
+    font-size: 11pt;
+    
+    margin-right:40px ;
+    
+    
+}
+
+li{
+   margin-left:20px;
+   margin-right: 20px;
+   
+}
+
+#linea1{
+    display: flex;
+    
+}
+
+
+.html5{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50%;
+
+}
+
+
+.html5img{
+    
+    float: right;
+    width: 50%;
+    padding-top: 20px;
+    
+}
+
+.html5h3{
+    text-align: center;
+    background-color: rgb(224, 106, 62);
+}
+
+.jsimg{
+    float: left;
+    width: 35%;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+#js6{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50%;
+    
+}
+
+.jsh3{
+    text-align: center;
+    background-color:rgb(251, 228, 97);
+    
+}
+
+
+#linea2{
+    display: flex;
+}
+
+
+#css3{
+   padding-left: 10px;
+   padding-right: 10px;
+   width: 50%;
+
+}
+
+.css3h3{
+    text-align: center;
+    background-color: rgb(80, 80, 202)
+
+}
+
+.css3img{
+    width: 30%;
+    float: right;
+    margin-right: 15px;
+    border-radius: 5px;
+    padding-right: 30px;
+}
+
+#php{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50%;
+}
+
+.phph3{
+    text-align: center;
+    background-color: rgb(154, 165, 165);
+
+}
+
+.phpimg{
+    width: 35%;
+    float: left;
+    padding: 1em;
+
+}
+
+
+
+#menu a{
+    text-decoration: none;
+    padding: 5px;
+    text-transform: uppercase;
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+    
+    
+}
+
+#menu a:hover{
+    background-color: rgb(107, 110, 116);
+    color: rgb(229, 3, 3);
+    cursor: pointer;
+}
+
+.spanhtml5{
+    background-color:rgb(209, 123, 67);
+}
+
+.span1{
+    color:red;
+}
+.span2{
+    color: blue;
+}
+.span3{
+    color: rgb(92, 204, 48);
+}
+
+.spanpie1{
+    background-color: aqua;
+}
+
+#redespie{
+     float: right;
+     width: 15%;
+    padding-right: 20px;
+    padding-top: 15px;
+     
+}
+
+.spanpie2{
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+
+#pie{
+    background-color: beige;
+}
+
+#parrafo1pie{
+    padding-top: 1px;
+}
+
+p{
+    font-family: "Briem Hand", cursive;
+}
+
+#piefinal{
+    padding-bottom: 5px;
+}
